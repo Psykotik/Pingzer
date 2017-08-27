@@ -1,26 +1,11 @@
 <html>
 <head>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script>
-    var ping = new Date;
-    var bping = new Date;
-
-    $.ajax({
-        url: "https://www.psykotik.fr/ping",
-        cache:false,
-        success: function(output){
-            ping = new Date - ping;
-
-            bping = ping;
-            $('.bping').text("bPing " + bping + "ms");
-            $('.ping').text("Ping " + ping + "ms");
-    }
-    });
-</script>
+  <script type="text/javascript" src="./script.js"></script>
 </head>
 <body>
-<span class="bping"></span>
-<br />
-<span class="ping"></span>
+  <h1>Hello this is a ping tester</h1>
+  <span class="ping"></span><br  />
+  <span class="ping_calculated"></span>
 </body>
 </html>

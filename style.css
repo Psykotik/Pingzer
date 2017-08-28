@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+}
+
+#ping{
+  font-size: 15px;
+}
+
+#ping_calculated {
+  font-size: 70px;
+}
+
+.sup250 {
+  background-color: purple;
+}
+.sup190 {
+  background-color: red;
+}
+.sup175 {
+  background-color: orange;
+}
+.sup150 {
+  background-color: yellow;
+}
+.sup135 {
+  background-color: blue;
+}
+.sup120 {
+  background-color: light_blue;
+}
+.sup90 {
+  background-color: dark_green;
+}
+.sup75 {
+  background-color: green;
+}
+.sup50 {
+  background-color: light_green;
+}
+.inf50 {
+  background-color: white;
+}

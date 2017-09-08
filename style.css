@@ -1,5 +1,7 @@
 body{
   text-align: center;
+  margin-top: 50vh;
+  transform: translateY(-50%);
 }
 
 #ping{
@@ -7,7 +9,7 @@ body{
 }
 
 #ping_calculated {
-  font-size: 70px;
+  font-size: 150px;
 }
 
 .sup250 {

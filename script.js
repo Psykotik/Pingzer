@@ -11,7 +11,7 @@ $.ajax({
         ping_calculated = ping * percentage;
         ping_calculated = Math.round(ping_calculated);
         $('#ping').text("Raw ping " + ping + "ms");
-        $('#ping_calculated').text(ping_calculated + "ms");
+        $('#ping_calculated').text(ping_calculated + " ms");
         console.log("ping");
 
 
